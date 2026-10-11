@@ -1,9 +1,0 @@
-<!-- 1) index.html లో <head> లోపల ఇది పేస్ట్ చేయండి -->
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#2f7d4f">
-<link rel="apple-touch-icon" href="icon-192.png">
-
-<!-- 2) index.html లో </body> కి ముందు ఇది పేస్ట్ చేయండి -->
-<script>
-if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
-</script>
